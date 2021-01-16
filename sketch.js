@@ -57,7 +57,7 @@ function draw() {
   bow.y = World.mouseY
   
    // release arrow when space key is pressed
-  if (keyDown("space")) {
+  if (keyWentDown("space")) {
     createArrow();
     
   }
